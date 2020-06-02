@@ -8,10 +8,10 @@
  */
 function myMap(arr, callback)
 {
-    let newarray = arr;
-    for (let i = 0; i < newarray.length; i++)
+    let newarray= [];
+    for (let i = 0; i < arr.length; i++)
     {
-        newarray[i] = callback(newarray[i]);    
+        newarray[i] = callback(arr[i]);    
     }
     return newarray;
 }
