@@ -7,5 +7,13 @@
  */
 
 function myPush(arr, item) {
-    arr[arr.length] = item;
+    let newarray = arr;
+    newarray[newarray.length] = item;
+    return newarray;
 }
+
+let christ = ['yo', 'yo'];
+
+let jesus = myPush(christ, 2);
+jesus.forEach(element => console.log(element));
+console.log(jesus.length);
