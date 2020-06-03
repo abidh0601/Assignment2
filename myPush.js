@@ -7,6 +7,7 @@
  */
 
 function myPush(arr, item) {
-    arr[arr.length] = item;
-    return arr.length;
+    let newarray = arr;
+    newarray[newarray.length] = item;
+    return newarray;
 }
