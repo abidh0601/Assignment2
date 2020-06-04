@@ -1,5 +1,13 @@
 // JavaScript source code
 
+/**
+ * 
+ * @param {Array} arr
+ * @param {item} query
+ * @param {number} fromIndex
+ * 
+ * @return {number} 
+ */
 const myIndexOf = function (arr, query, fromIndex) {
     if (fromIndex == undefined) {
         for (let i = 0; i < arr.length; i++) {
